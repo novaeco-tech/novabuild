@@ -29,7 +29,7 @@ NovaBuild is data-heavy. It ingests massive 3D models (IFC files) and links spec
 
 ```mermaid
 graph TD
-    User((Architect)) -->|1. Upload BIM (IFC)| UI[NovaBuild Dashboard]
+    User((Architect)) -->|"1. Upload BIM (IFC)"| UI[NovaBuild Dashboard]
     UI -->|REST| API[NovaBuild API]
     
     subgraph "The Analysis Layer"
